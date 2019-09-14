@@ -1,0 +1,146 @@
+#header {
+  margin-top: none !important;
+}
+.slider {
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.siyanda.org%2Fwp-content%2Fuploads%2Fwhere_to_find_construction_workers.jpg&f=1&nofb=1");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+}
+.box-slider {
+  background-color: white;
+  margin-left: 50px;
+  padding: 28px;
+  margin-top: 20px;
+}
+.box-slider a {
+  color: #01689b;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bekeken i {
+  color: #01689b;
+  padding: 10px;
+}
+
+.task-nav-box a:hover {
+  text-decoration: underline;
+}
+h6 {
+  color: #01689b;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+}
+h6:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.grid-white {
+  margin-top: 70px;
+}
+.container-photos {
+  border-top: 1px solid lightgray;
+  width: auto;
+}
+.card-image {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+p:hover {
+  cursor: pointer;
+}
+.container-news {
+  margin-left: 35px;
+}
+.container-news p {
+  color: #01689b;
+  font-weight: bold;
+}
+.container-news p:hover {
+  text-decoration: underline;
+}
+h5 {
+  font-weight: bold;
+}
+p.date {
+  font-weight: bold;
+}
+.container-vragen p {
+  font-size: 24px;
+  line-height: 0.9;
+  font-weight: bold;
+}
+
+h3 {
+  color: #a90061;
+  font-weight: bold;
+  font-size: 42px;
+}
+h4 {
+  color: #01689b;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.section-more-news h6 {
+  font-size: 24px;
+}
+.page-footer {
+  background-color: #01689b;
+}
+.container-footer {
+  display: flex;
+  background-color: #01689b;
+}
+.container-footer ul li a {
+  color: white;
+  line-height: 2;
+}
+
+.box-1 {
+  flex: 3;
+}
+.box-1 h2 {
+  font-size: 25px;
+}
+.box-2 {
+  flex: 1;
+}
+.box-2 h2 {
+  font-size: 23px;
+}
+.box-3 {
+  flex: 1;
+}
+.box-3 h2 {
+  font-size: 23px;
+}
+.wrapper-languajes ul li {
+  display: inline-flex;
+}
+.wrapper-languajes a {
+  color: #01689b;
+}
+
+.wrapper-languajes li {
+  border: solid 1px lightskyblue;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.wrapper-languajes ul li:first-child {
+  border: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .box-slider {
+    flex-wrap: wrap;
+    padding: 20px 20px;
+  }
+}
